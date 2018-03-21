@@ -1,0 +1,16 @@
+.card-img-top{
+    width: 100%
+}
+
+.right-card{
+    padding-right: 30px;
+}
+
+li{
+    background-color: cadetblue;
+    color: navajowhite;
+}
+
+a{
+    color: powderblue;
+}

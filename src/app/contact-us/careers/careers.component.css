@@ -1,0 +1,9 @@
+.hiring-img{
+    width: 100%;
+}
+
+@media(max-width: 768px){
+    .text-justify{
+        text-align: center !important;
+    }
+}

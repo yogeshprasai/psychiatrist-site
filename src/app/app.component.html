@@ -1,0 +1,115 @@
+<div class="container text-center">
+  <div class="text-center" style="display: none">
+    <div class="col-xs-12 top-bar-custom text-center">
+        703-596-4796 | 12359 Sunrise Valley Drive, Suite 320, Reston, VA 20191 
+        Like us on Facebook Follow us on Twitter
+    </div>
+  </div>
+  <img src="assets/icons/banner_top.jpg" class="img-fluid col-md-12 pl-0 pr-0 header-image"/>
+
+<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" 
+      data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" 
+      aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#" style="display: none">Navbar</a>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active first-li">
+        <a class="nav-link" routerLink="/home">Home<span class="sr-only">(current)</span></a>
+      </li> 
+
+      <li class="nav-item dropdown second-li" [ngClass]=" isHover ? 'show': ''" (mouseover)="isHover = true" 
+          (mouseout)="isHover = false">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownServices" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Services
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" [routerLink]="['/medical-management']">Medication Management</a>
+          <a class="dropdown-item" [routerLink]="['/counseling']">Counseling</a>
+          <a class="dropdown-item" [routerLink]="['/psychological-testing']">Psychological Testing</a>
+          <a class="dropdown-item" [routerLink]="['/tms']">TMS</a>
+          <a class="dropdown-item" [routerLink]="['/patient-resources']">Patient Resources</a>
+        </div>
+      </li>
+      <li class="nav-item third-li">
+        <a class="nav-link" [routerLink]="['/clinicians']">Clinicians</a>
+      </li>
+      <li class="nav-item dropdown fourth-li" [ngClass]=" isCPHover ? 'show': ''" (mouseover)="isCPHover = true" 
+          (mouseout)="isCPHover = false">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Clinic Policy
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" [routerLink]="['/medication-refill-policy']">Medication Refill Policy</a>
+          <a class="dropdown-item" [routerLink]="['/cancellation-policy']">Cancellation Policy</a>
+          <a class="dropdown-item" [routerLink]="['/financial-policy']">Financial Policy</a>
+          <a class="dropdown-item" [routerLink]="['/notices-of-privacy-practices']">Notices Of Privacy Practices</a>
+          <a class="dropdown-item" [routerLink]="['/insurance']">Insurance</a>
+        </div>
+      </li>
+      <li class="nav-item fifth-li">
+        <a class="nav-link" [routerLink]="['/testimonials']">Testimonials</a>
+      </li>
+      <li class="nav-item sixth-li">
+        <a class="nav-link" [routerLink]="['/portal-and-forms']">Patient Portal & Forms</a>
+      </li>
+      <li class="nav-item dropdown seventh-li" [ngClass]=" isHoverContact ? 'show': ''" (mouseover)="isHoverContact = true" 
+          (mouseout)="isHoverContact = false">
+        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Contact Us
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          <a class="dropdown-item" [routerLink]="['/careers']">Careeers</a>
+        </div>
+      </li>
+    </ul>
+  </div>
+</nav>
+
+
+  <router-outlet></router-outlet>
+  
+<footer>
+    <div class="footerHeader" ></div>
+    <div class="row">
+		
+		<div class="col-md-6">
+        <h3>Our Location </h3>
+        <img src="./assets/images/location.png" class="img-responsive img-map">   
+		</div>
+		<div class="col-md-6 pr-15" >
+		    <h3>Contact Us</h3>
+		    <ul>
+            <li>12359 Sunrise Valley Drive, Suite 320, Reston, VA 20191</li>
+		        <li>Phone : 703-596-4796</li>
+		        <li>E-mail : manager@mypsychiatrist.com</li>
+		    </ul>
+		    <div class="sm">
+              <a class="btn btn-primary btn-twitter btn-sm" 
+                href="https://twitter.com/hashtag/mypsychiatrist?src=hash"
+                target="_blank">
+                <i class="fa fa-twitter"></i>
+              </a>
+              <a class="btn btn-danger btn-sm" rel="publisher"
+                href="https://plus.google.com/118321604539132872365"
+                target="_blank">
+                <i class="fa fa-google-plus"></i>
+              </a>
+              <a class="btn btn-primary btn-sm" rel="publisher"
+                href="https://www.facebook.com/mypsychiatrist"
+                target="_blank">
+                <i class="fa fa-facebook"></i>
+              </a>
+		    </div>
+		</div>
+    </div>
+  <br/>
+</footer>
+
+
+</div>
+
+
+

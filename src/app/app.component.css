@@ -1,0 +1,159 @@
+a{
+    text-decoration: none;
+}
+
+a.nav-link{
+    color: white !important;
+    font-size: 18px;
+}
+
+a{
+    cursor: pointer;
+    font-size: 20px;
+}
+
+a:hover{
+    color: teal;
+}
+
+.navbar-light{
+    background-color: #46657F;
+    color: white;
+}
+
+.navbar-toggleable-md{
+    border: 1px solid powderblue;
+    padding: 0;
+}
+
+#navbarDropdownServices:hover .dropdown-menu{
+    
+}
+
+.dropdown-toggle::after {
+    display:none
+}
+
+
+
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/template-overviews/modern-business)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+
+body {
+  padding-top: 54px;
+}
+
+.carousel-item {
+  height: 65vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+.dropdown-menu{
+    background-color: #46657F;
+    border: none;
+    top: 96%;
+    border: 1px solid white;
+}
+
+.dropdown-item{
+    color: white;
+    font-size: 18px;
+}
+
+footer {
+    background-color: rgba(44, 62, 80, 1.0);
+
+    width: 100%;
+    bottom: 0;
+    font-weight: lighter;
+    color: white;
+}
+.footerHeader{
+    width:100%;
+    /* padding:1em; */
+    background-color:rgba(52, 73, 94,1.0);
+    text-align:center;
+    color:white;
+}
+footer h3{
+    font-weight:lighter;
+}
+footer ul{
+    padding-left:5px;
+    list-style:none;
+}
+footer p{
+    text-align : justify;
+    font-size : 12px;
+}
+footer iframe {
+    width:100%;
+    position:relative;
+    height:170px;
+}
+.sm{
+    list-style:none;
+    overflow:auto;
+}
+.sm li {
+    display: inline;
+    padding:5px;
+    float:left;
+} 
+.sm li a img {
+    width:32px;
+}
+
+.header-image{
+    height: 145px;
+}
+
+.hidenav{
+    display: none;
+}
+
+.img-map{
+    width: 90%;
+}
+
+@media(min-width: 320px ){
+    .header-image{
+        height: 90px;
+    }
+}
+
+
+@media(min-width: 767px ){
+    .header-image{
+        height: 145px;
+    }
+}
+
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+  .img-map{
+    width: 400px;
+    height: 175px;
+  }
+}
+
+@media(max-width: 992px){
+    .navbar-toggleable-md{
+        padding-bottom: 43px;
+    }
+}

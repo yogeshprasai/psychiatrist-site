@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+.container{
+    /* width: 100%; */
+}
+
+.global-background{
+    background-image: url(./assets/images/gradient2.jpg);
+}
+
+.top-bar-custom{
+    padding: 0;
+    background-color: lightsalmon;
+    color: white;
+}
+
+.mt-15{
+    margin-top: 15px;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-center{
+    text-align: center !important;
+}
+
+.mt-30{
+    margin-top: 30px
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.mb-80{
+    margin-bottom: 80px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pl-15{
+    padding-left: 15px
+}
+.pl-30{
+    padding-left: 30px;
+}
+.pl-40{
+    padding-left: 40px !important;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pr-15{
+    padding-right: 15px !important;
+}
+.pr-30{
+    padding-right: 30px;
+}
+
+.medium-font{
+    font-size: 20px
+}
+
+.large-font{
+    font-size: 26px;
+}
+
+.extra-large-font{
+    font-size: 32px
+}
+
+.bold-font{
+    font-weight: bold;
+}
+
+.oblique-font{
+    font-style: oblique;
+}
+
+.page-title{
+    color: #31708f;
+}
+
+.page-subtitle{
+    color: #31708f;
+}
+
+.link-text{
+    color: #6181df
+}
+
+.white-background{
+    background-color: whitesmoke !important;
+}
+
+@media(min-width: 992px){
+    .container{
+       /*  width: 80%; */
+    }
+}
